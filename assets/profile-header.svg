@@ -1,4 +1,4 @@
-<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="title desc">
   <title id="title">Ignacio de Loyola Díaz Jiménez — CEO de Hagalink IA</title>
   <desc id="desc">Cabecera animada con el posicionamiento de Ignacio y Hagalink IA.</desc>
   <defs>
@@ -33,6 +33,7 @@
     <circle cx="1100" cy="190" r="2" fill="#7DD3FC">
       <animate attributeName="cy" values="190;170;190" dur="5s" repeatCount="indefinite"/>
     </circle>
+    <image x="1028" y="82" width="120" height="120" preserveAspectRatio="xMidYMid meet" href="logos-Hagalink/logo-symbol-white-3x.png" xlink:href="logos-Hagalink/logo-symbol-white-3x.png"/>
     <g opacity="0.35">
       <circle cx="955" cy="35" r="1.5" fill="#D1FAE5"/>
       <circle cx="1080" cy="105" r="1.5" fill="#D1FAE5"/>
