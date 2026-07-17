@@ -1,5 +1,11 @@
 <div align="center">
 
+<img src="./assets/profile-header.svg" alt="Ignacio de Loyola Díaz Jiménez — CEO de Hagalink IA" width="100%" />
+
+</div>
+
+<div align="center">
+
 # Ignacio de Loyola Díaz Jiménez
 
 ### CEO y cofundador de [Hagalink IA](https://www.hagalink.es)

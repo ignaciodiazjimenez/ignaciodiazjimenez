@@ -1,0 +1,47 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ignacio de Loyola Díaz Jiménez — CEO de Hagalink IA</title>
+  <desc id="desc">Cabecera animada con el posicionamiento de Ignacio y Hagalink IA.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071B2B"/>
+      <stop offset="0.52" stop-color="#0B3440">
+        <animate attributeName="stop-color" values="#0B3440;#104E59;#0B3440" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#123E56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="40" y1="40" x2="1120" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#65E6D4"/>
+      <stop offset="0.5" stop-color="#1AA6A6"/>
+      <stop offset="1" stop-color="#7DD3FC"/>
+      <animate attributeName="x1" values="40;180;40" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="rounded"><rect width="1200" height="280" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="280" fill="url(#background)"/>
+    <path d="M-40 235C180 120 270 330 500 205C720 85 840 235 1240 55" stroke="url(#accent)" stroke-width="2" opacity="0.7"/>
+    <path d="M-60 260C190 145 300 345 530 220C760 95 910 260 1260 80" stroke="#65E6D4" stroke-width="1" opacity="0.2"/>
+    <circle cx="1030" cy="58" r="3" fill="#A7F3D0" filter="url(#glow)">
+      <animate attributeName="r" values="3;8;3" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;.35;1" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="190" r="2" fill="#7DD3FC">
+      <animate attributeName="cy" values="190;170;190" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <g opacity="0.35">
+      <circle cx="955" cy="35" r="1.5" fill="#D1FAE5"/>
+      <circle cx="1080" cy="105" r="1.5" fill="#D1FAE5"/>
+      <circle cx="890" cy="205" r="1.5" fill="#D1FAE5"/>
+    </g>
+
+    <text x="72" y="93" fill="#A7F3D0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3">HAGALINK IA</text>
+    <text x="72" y="145" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700">Tecnología cercana.</text>
+    <text x="72" y="190" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700">Decisiones inteligentes.</text>
+    <text x="72" y="231" fill="#BAE6FD" font-family="Arial, Helvetica, sans-serif" font-size="17">Software a medida · Datos · IA aplicada</text>
+  </g>
+</svg>
